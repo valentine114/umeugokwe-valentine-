@@ -1,0 +1,38 @@
+@media screen and (min-width: 300px) {
+  * {
+    padding: 0;
+    /* margin: 0; */
+    background-color: #1f2235;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin-top:px
+  }
+
+  .header img {
+    width: 8%;
+    border-radius: 8px;
+  }
+
+  .headerlink a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+.topper p{
+  color: white;
+  font-size: 30px;
+  margin-top: 30px
+}
+.topperlink{
+  margin-top: 25px
+}
+.topperlink a{
+  color: white;
+}

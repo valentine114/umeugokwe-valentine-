@@ -1,0 +1,35 @@
+@media screen and (min-width: 300px) {
+  * {
+    padding: 0;
+    margin: 0;
+    background-color: #1f2235;
+  }
+
+body{
+  padding: 10px
+}
+P{
+  color: white;
+}
+.top1{
+  margin-top: 25px
+}
+.top1 img{
+  width: 40%
+}
+.top1 h2{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.top2{
+  margin-top:25px
+}
+.top2 img{
+  width: 40%
+}
+.top2 h2{
+  color: white;
+  display: flex;
+  justify-content: center;
+}

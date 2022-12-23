@@ -1,0 +1,67 @@
+.header {}
+
+@media screen and (min-width: 300px) {
+  * {
+    padding: 0;
+    margin: 0;
+    background-color: #1f2235;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 6px; */
+    margin-top: -5px;
+  }
+
+  .header img {
+    width: 8%;
+    border-radius: 8px;
+  }
+
+  .headerlink a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  body {
+    padding: 13px;
+    /* display: flex; */
+  }
+
+  .topper {
+    margin-top: 40px;
+    /* flex-basis: 50% */
+  }
+
+  .topper p {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px
+  }
+
+  .topper h1 {
+    color: red;
+    margin-left: 25px
+  }
+
+  /* .topperright{
+    flex-basis: 50%
+  }
+  .topperright img{
+    width: 150%;
+    margin-right: 10px */
+  }
+}
+/* .active {
+  background-color: red;
+  color: white;
+}
+
+.other {
+  background: white;
+  color: black;
+} */
